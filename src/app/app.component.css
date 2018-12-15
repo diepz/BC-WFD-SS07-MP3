@@ -1,0 +1,29 @@
+body {
+    background: #E5E5E5;
+}
+.link {
+    margin: 3px 3px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.youtube {
+    background-image: linear-gradient(to bottom, #E52D27, #BF171D);
+    width: 15em;
+    height: 10em;
+    border-radius: 2.5em;
+    margin: 25vh auto 0 auto;
+    box-shadow: 0 0.1875em 0.3125em 0 #8C8B8B;
+}
+.youtube::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 4em solid #fff;
+    border-top: 2em solid transparent;
+    border-bottom: 2em solid transparent;
+    margin: auto;
+    position: relative;
+    top: 3em;
+    left: 0.3em;
+}

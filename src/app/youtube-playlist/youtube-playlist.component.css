@@ -1,0 +1,13 @@
+*{
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+h2 {
+    margin: 16px 16px;
+}
+ul li a:hover {
+    color: #4c110f;
+}
+
